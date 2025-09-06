@@ -3,20 +3,24 @@ import Layout from './components/Layout';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
+import Achievements from './sections/Achievements';
 import Certificates from './sections/Certificates';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 
 function App() {
   return (
-    <Layout>
-      <Hero />
-      <About />
-      <Skills />
-      <Certificates />
-      <Projects />
-      <Contact />
-    </Layout>
+    <div className="min-h-screen bg-black">
+      <Layout>
+        <Hero />
+        <About />
+        <Skills />
+        <Achievements />
+        <Certificates />
+        <Projects />
+        <Contact />
+      </Layout>
+    </div>
   );
 }
 
