@@ -248,7 +248,7 @@ const Contact: React.FC = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: '1cba23b1-5a79-404b-9094-4794870b1a92', // You need to get this from web3forms.com
+          access_key: '1cba23b1-5a79-404b-9094-4794870b1a92',
           name: formData.name,
           email: formData.email,
           subject: formData.subject || 'New message from portfolio',
