@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
     <section
       id="hero"
       ref={sectionRef}
-      className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden pt-16 sm:pt-20 md:pt-0"
     >
       {/* Enhanced Background Effects */}
       <div className="absolute inset-0">
@@ -83,12 +83,6 @@ const Hero: React.FC = () => {
       <div className="container mx-auto z-10 flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-12 xl:px-16">
         {/* Text Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6 sm:space-y-8 mt-8 lg:mt-0">
-          {/* Status Badge */}
-          <div className={`inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-full text-green-400 text-xs sm:text-sm font-medium transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="hidden xs:inline">Available for opportunities</span>
-            <span className="xs:hidden">Available</span>
-          </div>
           
           <div className="space-y-4 sm:space-y-6">
             <h1
